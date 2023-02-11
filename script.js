@@ -4,7 +4,7 @@ let arr = [
   { id: 3, name: "karen", age: "19", marks: 35 },
 ];
 
-function PrintStudentbyMap() {
+function PrintStudentswithMap() {
   //Write your code here , just console.log
   arr.map((arr) => {
     if (arr.marks > 50) {
